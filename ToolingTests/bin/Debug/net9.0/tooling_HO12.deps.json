@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "tooling_HO12/1.0.0": {
+        "dependencies": {
+          "Microsoft.NetFramework.Analyzers": "3.3.2"
+        },
+        "runtime": {
+          "tooling_HO12.dll": {}
+        }
+      },
+      "Microsoft.NetFramework.Analyzers/3.3.2": {}
+    }
+  },
+  "libraries": {
+    "tooling_HO12/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NetFramework.Analyzers/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfmC8NoxrRtw2PSmqSu+kVTcsJuMhspxWKbVzrtPxw+O8hjpCPzD0IttCUJclDf36qkmScvvd1BgRHYE17zF9g==",
+      "path": "microsoft.netframework.analyzers/3.3.2",
+      "hashPath": "microsoft.netframework.analyzers.3.3.2.nupkg.sha512"
+    }
+  }
+}
