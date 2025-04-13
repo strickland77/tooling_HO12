@@ -1,0 +1,17 @@
+version: 1.0.{build}
+image: Visual Studio 2022
+build_script:
+- ps: >-
+    dotnet add .\Tooling\ package Microsoft.NetFramework.Analyzers --version 3.3.2
+
+    dotnet format
+
+    dotnet restore
+
+    dotnet build -c Debug
+
+    dotnet build -c Release
+
+    doxygen .\Tooling\Doxyfile
+
+    dotnet test
